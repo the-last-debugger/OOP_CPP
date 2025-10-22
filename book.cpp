@@ -29,7 +29,7 @@ public:
 
 int main()
 {
-    Book b;
+    Book b("Harry Potter", 1998);
     b.display();
     return 0;
 }
