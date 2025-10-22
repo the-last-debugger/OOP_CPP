@@ -1,0 +1,54 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static Libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+/build/
+bin/
+debug/
+release/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.stackdump
+
+# Visual Studio Code settings
+# (keep settings folder but ignore workspace backups)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# macOS / Windows specific
+.DS_Store
+Thumbs.db
+desktop.ini
