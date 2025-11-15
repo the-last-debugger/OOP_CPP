@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
 # Compiled Object files
 *.slo
 *.lo
+=======
+# Compiled object files
+>>>>>>> master
 *.o
 *.obj
 
@@ -11,6 +15,7 @@
 *.gch
 *.pch
 
+<<<<<<< HEAD
 # Linker files
 *.ilk
 
@@ -18,10 +23,14 @@
 *.pdb
 
 # Compiled Dynamic libraries
+=======
+# Compiled Dynamic Libraries
+>>>>>>> master
 *.so
 *.dylib
 *.dll
 
+<<<<<<< HEAD
 # Fortran module files
 *.mod
 *.smod
@@ -33,9 +42,51 @@
 *.lib
 
 # Executables
+=======
+# Compiled Static Libraries
+*.a
+*.lib
+
+# Executable files
+>>>>>>> master
 *.exe
 *.out
 *.app
 
+<<<<<<< HEAD
 # debug information files
 *.dwo
+=======
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+/build/
+bin/
+debug/
+release/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.stackdump
+
+# Visual Studio Code settings
+# (keep settings folder but ignore workspace backups)
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# macOS / Windows specific
+.DS_Store
+Thumbs.db
+desktop.ini
+>>>>>>> master
